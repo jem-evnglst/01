@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Jem Evangelista is a Philippines-based social media manager supporting global brands with content, affiliate workflows, and digital business systems.">
+  <title>Jem Evangelista | Social Media, Content & Digital Systems</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23240C0E'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial,sans-serif' font-size='27' font-weight='900' fill='%23F5F4EF'%3EJM%3C/text%3E%3C/svg%3E">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+    :root{--ink:#000000;--paper:#f5f4ef;--acid:#240C0E;--line:#d4d2ca;--muted:#66665e;--white:#fff;scroll-behavior:smooth}
+
+    *{box-sizing:border-box}
+
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 'DM Sans',Arial,sans-serif}
+
+    a{color:inherit}
+
+    button{font:inherit}
+
+    ::selection{background:var(--acid);color:#F5F4EF}
+
+    .wrap{width:min(1440px,calc(100% - 72px));margin:auto}
+
+    .eyebrow{font:700 12px/1.3 'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.16em}
+
+    .section{padding:105px 0;border-top:1px solid var(--line)}
+
+    h1,h2,h3,p{margin-top:0}
+
+    h1,h2,h3{font-family:'Space Grotesk',sans-serif;letter-spacing:-.055em;line-height:.98}
+
+    h2{font-size:clamp(3.2rem,7vw,7rem);max-width:1000px;margin:20px 0 42px}
+
+    .lead{font-size:clamp(1.15rem,2vw,1.55rem);max-width:690px;color:#3c3c39}
+
+    .muted{color:var(--muted)}
+
+    header{height:78px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px}
+
+    .brand{font:700 21px 'Space Grotesk',sans-serif;text-decoration:none;letter-spacing:-.055em}
+
+    nav{display:flex;gap:28px}
+
+    nav a{font-size:14px;text-decoration:none}
+
+    nav a:hover{text-decoration:underline}
+
+    .nav-cta{padding:11px 18px;border:1px solid var(--ink);border-radius:100px;text-decoration:none;font-weight:700;font-size:13px}
+
+    .hero{min-height:calc(100svh - 78px);display:grid;grid-template-rows:1fr auto;position:relative;overflow:hidden;padding:62px 0 24px}
+
+    .hero h1{font-size:clamp(4.5rem,12.8vw,13rem);line-height:.82;max-width:1200px;margin:54px 0 44px;text-transform:uppercase}
+
+    .hero h1 span{display:block}
+
+    .outline{-webkit-text-stroke:1.5px var(--ink);color:transparent}
+
+    .hero h1 .accent{display:inline-block;background:var(--acid);color:#F5F4EF;padding:.02em .12em .11em;transform:translateY(10px) rotate(-2deg)}
+
+    .hero-bottom{display:flex;align-items:end;justify-content:space-between;gap:24px}
+
+    .hero-bottom p{font-size:20px;max-width:530px;margin:0}
+
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+
+    .pill{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 22px;border-radius:100px;text-decoration:none;font-weight:700;border:1px solid var(--ink);transition:transform .25s,background .25s}
+
+    .pill:hover{transform:translateY(-4px)}
+
+    .pill.dark{background:var(--ink);color:var(--white)}
+
+    .pill.lime{background:var(--acid);color:#F5F4EF}
+
+    .ticker{background:#000000;color:#F5F4EF;overflow:hidden;white-space:nowrap;padding:17px 0;font:700 19px 'Space Grotesk',sans-serif;letter-spacing:.08em}
+
+    .ticker div{display:inline-block;animation:marquee 25s linear infinite}
+
+    @keyframes marquee{to{transform:translateX(-50%)}}
+
+    .statement{background:var(--acid);color:#F5F4EF;padding:130px 0}
+
+    .statement p{font:700 clamp(3.1rem,8vw,8.4rem)/.99 'Space Grotesk',sans-serif;letter-spacing:-.075em;text-transform:uppercase;margin:0}
+
+    .statement em{font-style:normal;color:transparent;-webkit-text-stroke:1.5px #F5F4EF}
+
+    .about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:9vw;align-items:start}
+
+    .about-grid h2{margin-bottom:35px}
+
+    .profile{min-height:460px;background:#240C0E;color:#F5F4EF;border-radius:18px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+
+    .profile:after{content:'J.';position:absolute;font:700 330px/1 'Space Grotesk',sans-serif;letter-spacing:-.15em;color:#F5F4EF;bottom:-64px;right:47px;transform:rotate(-10deg)}
+
+    .profile>*{position:relative;z-index:1}
+
+    .profile .chips{display:flex;gap:8px;flex-wrap:wrap}
+
+    .chip{border:1px solid currentColor;border-radius:100px;padding:8px 12px;font-size:12px;text-transform:uppercase;letter-spacing:.07em}
+
+    .services{background:#eae9e2}
+
+    .service-list{border-top:1px solid var(--ink)}
+
+    .service{display:grid;grid-template-columns:55px 1fr auto;gap:25px;align-items:start;border-bottom:1px solid var(--ink);padding:31px 0;transition:padding .25s,background .25s}
+
+    .service:hover{padding-left:18px;background:#F5F4EF}
+
+    .service h3{font-size:clamp(2rem,4vw,4rem);margin:0 0 12px}
+
+    .service p{max-width:650px;margin:0;color:#4b4b45}
+
+    .service .icon{font-size:34px;line-height:1}
+
+    .work-head{display:flex;align-items:end;justify-content:space-between;gap:30px}
+
+    .work-head h2{margin-bottom:40px}
+
+    .case{display:grid;grid-template-columns:1.1fr .9fr;border:1px solid var(--ink);border-radius:15px;overflow:hidden;margin:22px 0;background:#fff}
+
+    .case-art{min-height:420px;padding:35px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+
+    .art-pinterest{background:#240C0E}
+
+    .art-report{background:#000000}
+
+    .art-affiliate{background:#240C0E}
+
+    .pin{width:190px;height:285px;background:#fff;border-radius:7px;padding:16px;box-shadow:10px 12px 0 #F5F4EF40;display:flex;flex-direction:column;justify-content:space-between;transform:rotate(-8deg);border:1px solid var(--ink)}
+
+    .pin:nth-child(2){transform:rotate(9deg) translate(-20px,18px);background:#000000;color:white}
+
+    .pin strong{font:700 29px/.97 'Space Grotesk',sans-serif;letter-spacing:-.06em}
+
+    .pin small{font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+
+    .sheet{background:#fff;border:1px solid var(--ink);padding:25px;width:min(330px,90%);min-height:270px;box-shadow:14px 14px 0 #F5F4EF40;transform:rotate(-4deg)}
+
+    .bars{height:140px;display:flex;gap:14px;align-items:end;border-bottom:1px solid #aaa}
+
+    .bars i{flex:1;background:var(--ink);border-radius:4px 4px 0 0}
+
+    .bars i:nth-child(1){height:44%}
+
+    .bars i:nth-child(2){height:80%;background:#240C0E}
+
+    .bars i:nth-child(3){height:62%}
+
+    .bars i:nth-child(4){height:95%;background:var(--acid)}
+
+    .tracker{background:#fff;width:min(390px,95%);border:2px solid #FFFFFF;box-shadow:12px 12px 0 #F5F4EF40;transform:rotate(4deg)}
+
+    .tracker .row{display:grid;grid-template-columns:1fr .8fr .7fr;border-top:1px solid #ddd}
+
+    .tracker .row>*{padding:13px;font-size:12px;border-right:1px solid #ddd}
+
+    .tracker .row:first-child{background:var(--ink);color:white}
+
+    .case-copy{padding:clamp(28px,5vw,70px);display:flex;flex-direction:column;justify-content:center}
+
+    .case-copy h3{font-size:clamp(2.5rem,4.5vw,5rem);margin:18px 0}
+
+    .case-copy dl{display:grid;grid-template-columns:100px 1fr;gap:10px 15px;margin:25px 0 0;font-size:14px}
+
+    .case-copy dt{font-weight:700}
+
+    .case-copy dd{margin:0}
+
+    .disclaimer{font-size:12px;color:#575750;margin-top:15px}
+
+    .system{background:var(--ink);color:#f8f8f2}
+
+    .system .eyebrow{color:#F5F4EF}
+
+    .tool-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+
+    .tool-group{border:1px solid #5c5c55;border-radius:12px;padding:28px;min-height:195px;transition:background .2s,transform .2s}
+
+    .tool-group:hover{background:#292a27;transform:translateY(-6px)}
+
+    .tool-group strong{display:block;color:#985B5D;font:700 13px 'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.12em;margin-bottom:28px}
+
+    .tool-group p{font-size:21px;margin:0}
+
+    .tool-group small{display:block;color:#b7b7af;margin-top:15px}
+
+    .workflow{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--ink);border-radius:12px;overflow:hidden}
+
+    .step{padding:22px;min-height:220px;border-right:1px solid var(--ink);display:flex;flex-direction:column;justify-content:space-between}
+
+    .step:last-child{border:0}
+
+    .step b{font:700 26px 'Space Grotesk',sans-serif}
+
+    .step p{font-size:13px;margin:0}
+
+    .step:nth-child(even){background:var(--acid);color:#F5F4EF}
+
+    .affiliate-flow{display:flex;flex-wrap:wrap;gap:7px;margin-top:40px}
+
+    .affiliate-flow span{padding:12px 17px;background:var(--ink);color:#fff;border-radius:5px;font:700 14px 'Space Grotesk',sans-serif}
+
+    .contact{background:var(--acid);color:#F5F4EF;padding:120px 0}
+
+    .contact h2{font-size:clamp(4.3rem,11vw,11rem);max-width:1200px;line-height:.88;margin:20px 0 60px}
+
+    .contact .lead{color:#F5F4EF}
+
+    .contact-bottom{display:grid;grid-template-columns:1fr 1fr;gap:30px;border-top:1px solid #F5F4EF;padding-top:30px}
+
+    .contact-links{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+    .contact-links a,.contact-links .contact-item{display:flex;flex-direction:column;justify-content:space-between;min-height:100px;border:1px solid #F5F4EF;border-radius:10px;padding:15px 18px;background:#F5F4EF;color:#240C0E;text-decoration:none;transition:transform .2s,background .2s}
+
+    .contact-links a:hover{transform:translateY(-4px);background:#fff}
+
+    .contact-links small{font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+
+    .contact-links strong{font:700 17px 'Space Grotesk',sans-serif;overflow-wrap:anywhere}
+
+    .contact a{font-weight:700}
+
+    .contact .muted{color:#F5F4EF}
+
+    footer{background:#000000;color:white;padding:35px 0}
+
+    footer .wrap{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}
+
+    footer a{color:#F5F4EF;text-decoration:none}
+
+    .reveal{opacity:0;transform:translateY(25px);transition:opacity .7s,transform .7s}
+
+    .reveal.visible{opacity:1;transform:none}
+
+    a:focus-visible,button:focus-visible{outline:3px solid #7768d5;outline-offset:4px}
+
+    @media(max-width:900px){
+      .wrap{width:min(100% - 36px,700px)}
+      nav{display:none}
+      .hero{min-height:740px}
+      .hero h1{font-size:clamp(4.4rem,15vw,9rem)}
+      .hero-bottom,.work-head{display:block}
+      .actions{margin-top:28px}
+      .about-grid,.case,.contact-bottom{grid-template-columns:1fr}
+      .profile{min-height:330px}
+      .tool-groups{grid-template-columns:repeat(2,1fr)}
+      .workflow{grid-template-columns:repeat(3,1fr)}
+      .step:nth-child(3){border-right:0}
+      .step{border-bottom:1px solid var(--ink)}
+    }
+
+    @media(max-width:600px){
+      .section{padding:72px 0}
+      header{height:68px}
+      .brand{font-size:18px}
+      .nav-cta{padding:9px 12px}
+      .hero{min-height:700px;padding:38px 0 24px}
+      .hero h1{font-size:clamp(4.2rem,16vw,7rem);margin:45px 0}
+      .hero-bottom p{font-size:17px}
+      .statement{padding:85px 0}
+      .statement p{font-size:clamp(3rem,12vw,5rem)}
+      .service{grid-template-columns:32px 1fr;gap:12px}
+      .service .icon{display:none}
+      .service h3{font-size:2.2rem}
+      .case-art{min-height:340px;padding:15px}
+      .pin{width:145px;height:230px}
+      .pin strong{font-size:23px}
+      .case-copy{padding:30px}
+      .case-copy dl{grid-template-columns:85px 1fr}
+      .tool-groups{grid-template-columns:1fr}
+      .tool-group{min-height:150px}
+      .workflow{grid-template-columns:repeat(2,1fr)}
+      .step{min-height:170px}
+      .step:nth-child(3){border-right:1px solid var(--ink)}
+      .step:nth-child(even){border-right:0}
+      .contact{padding:75px 0}
+      .contact h2{font-size:clamp(4rem,13vw,6rem)}
+      .contact-links{grid-template-columns:1fr 1fr}
+      footer .wrap{display:block}
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      *,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+      .reveal{opacity:1;transform:none}
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="wrap"><a class="brand" href="#top" aria-label="Jem Evangelista, home">JEM<span aria-hidden="true"></span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#tools">Tools</a><a href="#contact">Contact</a></nav><a class="nav-cta" href="#contact">LET'S CONNECT </a></header>
+
+  <main id="top">
+
+    <section class="hero wrap" aria-labelledby="hero-title"><div><div class="eyebrow">Social media · Content · Digital systems</div><h1 id="hero-title"><span>SOCIAL.</span><span class="outline">CONTENT.</span><span><i class="accent" style="font-style:normal">SYSTEMS.</i></span></h1></div><div class="hero-bottom"><p>I help online brands show up with purposeful content and keep the work behind it organized.</p><div class="actions"><a class="pill dark" href="#work">Explore my work </a><a class="pill" href="#contact">Let's work together</a></div></div></section>
+
+    <div class="ticker" aria-hidden="true"><div>STRATEGY * CONTENT * WORKFLOW * AFFILIATE SUPPORT * DIGITAL PRODUCTS * STRATEGY * CONTENT * WORKFLOW * AFFILIATE SUPPORT * DIGITAL PRODUCTS * STRATEGY * CONTENT * WORKFLOW * AFFILIATE SUPPORT * DIGITAL PRODUCTS * STRATEGY * CONTENT * WORKFLOW * AFFILIATE SUPPORT * DIGITAL PRODUCTS *  &nbsp;</div></div>
+
+    <section class="statement"><div class="wrap reveal"><div class="eyebrow">The way I work</div><p>SHOW UP.<br><em>LOOK GOOD.</em><br>STAY ORGANIZED.<br>KEEP MOVING.</p></div></section>
+
+    <section class="section wrap" id="about"><div class="about-grid"><div class="reveal"><div class="eyebrow">01 / About</div><h2>Hello, I'm Jem.</h2><p class="lead">I'm a Philippines-based social media manager and digital business support specialist working with brands across platforms and time zones.</p><p>I combine creative execution with the organized work behind it: planning, designing, scheduling, tracking, and reporting. I adapt to each client's voice and workflow, and communicate clearly as projects move forward.</p></div><div class="profile reveal" role="img" aria-label="Jem typographic profile card"><div class="chips"><span class="chip">Content</span><span class="chip">Affiliate</span><span class="chip">Remote</span></div></div></div></section>
+
+    <section class="section services" id="services"><div class="wrap"><div class="eyebrow">02 / What I can do</div><h2>Creative work.<br>Clear systems.</h2><div class="service-list"><article class="service reveal"><span class="eyebrow">01</span><div><h3>Social media management</h3><p>Content calendars, platform-specific content, scheduling, organization, and reporting for Facebook, Instagram, Pinterest, TikTok, and YouTube.</p></div><span class="icon" aria-hidden="true">↗</span></article><article class="service reveal"><span class="eyebrow">02</span><div><h3>Content creation</h3><p>Canva design, short-form video editing in CapCut, UGC support using client-provided assets, and content repurposing.</p></div><span class="icon" aria-hidden="true">↗</span></article><article class="service reveal"><span class="eyebrow">03</span><div><h3>Affiliate support</h3><p>Benable, Amazon, and Pinterest content workflows; lead research, spreadsheets, and progress tracking.</p></div><span class="icon" aria-hidden="true">↗</span></article><article class="service reveal"><span class="eyebrow">04</span><div><h3>Digital business support</h3><p>Support for digital products, Beacons, Stan Store, sales pages, funnels, and websites, scoped to the project's needs.</p></div><span class="icon" aria-hidden="true">↗</span></article></div></div></section>
+
+    <section class="section wrap" id="work"><div class="work-head"><div><div class="eyebrow">03 / Selected work</div><h2>Work that moves<br>the work forward.</h2></div><p class="muted">Client work is kept confidential. These project summaries show my role and process without sharing private assets, accounts, or performance data. The visuals represent the workflows described.</p></div><article class="case reveal"><div class="case-art art-pinterest" aria-label="Conceptual multi-platform content planning cards"><div class="pin"><small>Social content</small><strong>Make every post count.</strong><small>Plan • Create • Schedule</small></div><div class="pin"><small>Campaign planning</small><strong>One brand.<br>Many ways<br>to show up.</strong><small>Plan • Create • Schedule</small></div></div><div class="case-copy"><div class="eyebrow">01 / Content & campaign support</div><h3>Content shaped<br>around the brand.</h3><p>For one part-time SMM engagement, the scope includes Instagram-led content planning, a marketing calendar, promotional materials, scheduling, campaign coordination, and basic audience research. Content goes through a shared Notion workspace for client review before publishing.</p><p>My approach adapts to the platforms, content formats, and level of support each client needs, whether that involves Instagram, Facebook, Pinterest, TikTok, YouTube, or a focused mix.</p><dl><dt>Role</dt><dd>Planning · Copy · Content support · Scheduling</dd><dt>Process</dt><dd>Calendar organization and client approval in Notion</dd><dt>Scope</dt><dd>Platforms and deliverables agreed for each client</dd></dl></div></article><article class="case reveal"><div class="case-art art-report" aria-label="Conceptual social media reporting chart"><div class="sheet"><div class="eyebrow">Weekly / Reporting</div><h3 style="font-size:32px;margin:18px 0">What happened.<br>What we do next.</h3><div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div></div><div class="case-copy"><div class="eyebrow">02 / Weekly SMM reporting</div><h3>Numbers into<br>next steps.</h3><p>Prepared weekly reporting that translates performance data into a clear client update and practical content decisions.</p><dl><dt>Role</dt><dd>Reporting and presentation</dd><dt>Tools</dt><dd>Metricool · Canva · Loom</dd></dl></div></article><article class="case reveal"><div class="case-art art-affiliate" aria-label="Conceptual affiliate tracking spreadsheet"><div class="tracker"><div class="row"><b>OPPORTUNITY</b><b>PLATFORM</b><b>STATUS</b></div><div class="row"><span>Product research</span><span>Benable</span><span>Organized</span></div><div class="row"><span>Content link</span><span>Pinterest</span><span>Tracked</span></div><div class="row"><span>Application</span><span>Client action</span><span>Pending</span></div></div></div><div class="case-copy"><div class="eyebrow">03 / Affiliate workflow</div><h3>Good ideas.<br>Tracked well.</h3><p>Affiliate support combines product content, lead research, spreadsheet organization, and clear status tracking. Client participation remains essential for applications and account verification.</p><dl><dt>Focus</dt><dd>Benable · Amazon · Pinterest</dd><dt>Support</dt><dd>Research · Organization · Progress tracking</dd></dl></div></article></section>
+
+    <section class="section system" id="tools"><div class="wrap"><div class="eyebrow">04 / My tool ecosystem</div><h2>Tools are only useful<br>when the workflow works.</h2><div class="tool-groups"><div class="tool-group reveal"><strong>Design & video</strong><p>Canva · CapCut · OpenArt</p><small>Visual content, editing, and creative production</small></div><div class="tool-group reveal"><strong>Social & automation</strong><p>Metricool · Publer · ManyChat</p><small>Publishing, reporting, and messaging workflows</small></div><div class="tool-group reveal"><strong>Planning & files</strong><p>Notion · Google Sheets · Google Drive</p><small>Content calendars, tracking, and shared assets</small></div><div class="tool-group reveal"><strong>AI assistance</strong><p>ChatGPT · Claude</p><small>Research support, drafting, and ideation with human review</small></div><div class="tool-group reveal"><strong>Communication</strong><p>Loom · Instagram · WhatsApp · Telegram</p><small>Clear updates across a remote workflow</small></div><div class="tool-group reveal"><strong>Digital setup</strong><p>Stan Store · Beacons · GitHub</p><small>Product, web, and project support as scoped</small></div></div></div></section>
+
+    <section class="section wrap" id="process"><div class="eyebrow">05 / How I work</div><h2>From idea<br>to organized action.</h2><div class="workflow"><div class="step"><span class="eyebrow">01</span><div><b>Discover</b><p>Understand the brand, audience, and goals.</p></div></div><div class="step"><span class="eyebrow">02</span><div><b>Plan</b><p>Build a content structure and calendar.</p></div></div><div class="step"><span class="eyebrow">03</span><div><b>Create</b><p>Design and prepare approved assets.</p></div></div><div class="step"><span class="eyebrow">04</span><div><b>Schedule</b><p>Organize and publish the content.</p></div></div><div class="step"><span class="eyebrow">05</span><div><b>Track</b><p>Keep statuses and opportunities visible.</p></div></div><div class="step"><span class="eyebrow">06</span><div><b>Report</b><p>Share progress and recommended next steps.</p></div></div></div><div class="affiliate-flow" aria-label="Affiliate support workflow"><span>Research</span><span>Find leads</span><span>Organize</span><span>Track</span><span>Client application</span></div><p class="disclaimer">Applications and verifications that require personal or business information are completed directly by the client.</p></section>
+
+    <section class="contact" id="contact"><div class="wrap"><div class="eyebrow">06 / Let's connect</div><h2>LET'S MAKE<br>SOMETHING<br>WORTH<br>SCROLLING FOR.</h2><div class="contact-bottom"><p class="lead">Available for international projects. Tell me about your brand, what needs support, and how you like to work.</p><div><div class="contact-links"><a href="https://www.instagram.com/jemevnglst/" target="_blank" rel="noopener noreferrer"><small>Instagram </small><strong>@jemevnglst</strong></a><a href="https://www.facebook.com/evnglstjem" target="_blank" rel="noopener noreferrer"><small>Facebook </small><strong>Jem Evangelista</strong></a><a href="https://wa.me/639654459733" target="_blank" rel="noopener noreferrer"><small>WhatsApp </small><strong>+63 965 445 9733</strong></a><div class="contact-item"><small>Telegram</small><strong>+63 965 445 9733</strong></div></div><p class="muted" style="margin-top:20px">Based in the Philippines · Working globally<br>Wise available for payments</p></div></div></div></section>
+
+  </main>
+
+  <footer><div class="wrap"><div><strong>JEM EVANGELISTA</strong><br><span class="muted">Social media · Content · Digital business support</span></div><div>Made with intention · Philippines ↑ Global</div><a href="#top">Back to top ↑</a></div></footer>
+
+  <script>
+    const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}},{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  </script>
+
+</body>
+</html>
